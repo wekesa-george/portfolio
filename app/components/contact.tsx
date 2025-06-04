@@ -24,7 +24,7 @@ const Contact = () => {
         console.log('Form submitted:', formData);
         // Reset form
         setFormData({ name: '', email: '', subject: '', message: '' });
-        alert('Thank you for your message! I\'ll get back to you soon.');
+        alert('Thank you for your message! I&apos;ll get back to you soon.');
     };
 
     const contactInfo = [
@@ -73,8 +73,8 @@ const Contact = () => {
                 >
                     <h2 className="text-4xl lg:text-5xl font-bold text-gray-800 mb-6">Get In Touch</h2>
                     <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                        Let's discuss your next project or explore opportunities to work together. 
-                        I'm always excited to tackle new challenges and create innovative solutions.
+                        Let&apos;s discuss your next project or explore opportunities to work together. 
+                        I&apos;m always excited to tackle new challenges and create innovative solutions.
                     </p>
                 </motion.div>
 
@@ -111,10 +111,10 @@ const Contact = () => {
                         </div>
 
                         <div className="mt-12">
-                            <h4 className="text-xl font-semibold text-gray-800 mb-6">Let's Connect</h4>
+                            <h4 className="text-xl font-semibold text-gray-800 mb-6">Let&apos;s Connect</h4>
                             <p className="text-gray-600 mb-6">
-                                I'm passionate about creating innovative web solutions and would love to hear about your project. 
-                                Whether you're looking for a full-stack developer, need consultation on web technologies, 
+                                I&apos;m passionate about creating innovative web solutions and would love to hear about your project. 
+                                Whether you&apos;re looking for a full-stack developer, need consultation on web technologies, 
                                 or want to discuss potential collaborations, feel free to reach out.
                             </p>
                             <div className="flex flex-wrap gap-4">

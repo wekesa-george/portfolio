@@ -28,13 +28,13 @@ const About = () => {
                     >
                         <h3 className="text-2xl font-semibold text-gray-800 mb-6">My Journey</h3>
                         <p className="text-gray-600 mb-6 leading-relaxed">
-                            With over 9 years of experience in software development, I've evolved from an intern to a 
+                            With over 9 years of experience in software development, I&apos;ve evolved from an intern to a 
                             founding partner, building scalable solutions that serve hundreds of thousands of users. 
                             My expertise spans the full stack, with particular strength in modern JavaScript frameworks 
                             and user-centric design.
                         </p>
                         <p className="text-gray-600 mb-6 leading-relaxed">
-                            I'm committed to best practices in software development and continuous learning, ensuring 
+                            I&apos;m committed to best practices in software development and continuous learning, ensuring 
                             the delivery of high-quality solutions that meet user needs and business objectives. 
                             My recent work includes AI-driven capabilities and modern authentication systems.
                         </p>

@@ -1,6 +1,7 @@
 "use client"
 import React from 'react';
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 
 const Hero = () => {
     return (
@@ -13,7 +14,7 @@ const Hero = () => {
                     className="lg:w-1/2 text-center lg:text-left mb-12 lg:mb-0"
                 >
                     <h1 className="text-5xl lg:text-7xl font-bold text-gray-800 mb-6">
-                        Hi, I'm <span className="text-blue-600">Wekesa George</span>
+                        Hi, I&apos;m <span className="text-blue-600">Wekesa George</span>
                     </h1>
                     <h2 className="text-2xl lg:text-3xl text-gray-600 mb-8">
                         Full Stack JavaScript Developer
@@ -46,10 +47,13 @@ const Hero = () => {
                 >
                     <div className="relative">
                         <div className="absolute -inset-4 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full opacity-20 blur-lg"></div>
-                        <img
+                        <Image
                             src="/main-image-of-me.webp"
                             alt="Wekesa George"
+                            width={384}
+                            height={384}
                             className="relative w-80 h-80 lg:w-96 lg:h-96 object-cover rounded-full shadow-2xl"
+                            priority
                         />
                     </div>
                 </motion.div>
